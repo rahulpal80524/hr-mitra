@@ -1,0 +1,12 @@
+<div class="col-lg-12">
+  <div class="card rounded-0 mt-5 md-5">
+    <div class="card-body">
+      <h2 class="text-center">Create New Employee</h2>
+    </div>
+  </div>
+  <%=render 'form', employee: @employee %>
+  <%#= render partial: 'form', locals: { employee: @employee } %> 
+  <%# partial key is used then locals: {ss: @ss} use this way %>
+  <%#= render(partial: 'form', locals: { employee: @employee }) %>
+
+</div>
